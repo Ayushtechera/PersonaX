@@ -41,7 +41,7 @@ if __name__ == "__main__":
         chatbot=gr.Chatbot(show_label=False),
     ).launch(
         server_name="0.0.0.0",
-        server_port=int(os.getenv["PORT"]),
+        server_port=int(os.getenv("PORT", 7860)),
         css=CSS,
         js=JS,
         theme=gr.themes.Base()
