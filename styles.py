@@ -47,7 +47,7 @@ html, body, gradio-app { background: var(--twin-bg) !important; }
   color: var(--twin-text) !important;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
   width: 100% !important;
-  max-width: 880px !important;
+  max-width: 1200px !important;
   min-width: 0 !important;
   margin: 0 auto !important;
   padding: 32px 24px 48px !important;
@@ -94,7 +94,7 @@ button, input, textarea,
 .chatbot, .chatbot.block {
   background: var(--twin-surface) !important;
   border: 1px solid var(--twin-border) !important;
-  min-height: 460px !important;
+  min-height: 600px !important;
   box-shadow: none !important;
 }
 .chatbot .placeholder, .chatbot .placeholder * { color: var(--twin-muted) !important; }
